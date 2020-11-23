@@ -24,8 +24,14 @@ public class Ejemplo {
 		
 //		miCoche2.color = colorPorDefecto;
 		
-		System.out.println(miCoche);
-		System.out.println(miCoche2);
+//		System.out.println(miCoche);
+//		System.out.println(miCoche2);
+		
+		Coche coche1 = new Coche("Seat Ibiza", "Rojo");
+		coche1.setMatricula("1234 BBB");
+		System.out.println(coche1);
+		Vehiculo miMoto = new Moto("Suzuki","Negro");
+		System.out.println(miMoto);
 	}
 
 }
